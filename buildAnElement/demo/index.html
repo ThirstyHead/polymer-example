@@ -1,6 +1,22 @@
 <!doctype html>
 <html>
   <head>
+    <style is="custom-style">
+      :root {
+        --icon-toggle-outline-color: red;
+      }
+
+      icon-toggle-demo {
+        --icon-toggle-pressed-color: blue;
+      }
+
+      /* NOTE: this rule won't be applied due to shadow DOM */
+      body {
+        --icon-toggle-color: purple;
+      }
+
+    </style>
+
     <script src="../../webcomponentsjs/webcomponents-lite.js"></script>
     <script>
       /*
